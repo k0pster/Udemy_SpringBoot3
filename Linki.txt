@@ -1,0 +1,4 @@
+Dokumentacja Spring:
+https://docs.spring.io/spring-framework/reference/index.html
+Wszystkie endpointy
+https://docs.spring.io/spring-boot/docs/2.1.11.RELEASE/reference/html/production-ready-endpoints.html
