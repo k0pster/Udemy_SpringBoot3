@@ -10,4 +10,5 @@ Wstępny przegląd zależności SPRING BOOT:
 -DEVTOOLS
 -ACTUATOR
 -SECURITY
-Dodawanie własnych properties do aplikacji za pomocą adnotacji @Value.
+Dodawanie własnych properties do aplikacji za pomocą adnotacji @Value i przegląd 
+tych najczęściej używanych.
