@@ -9,3 +9,4 @@ Poznanie zależności SPRING BOOT
 -DEVTOOLS
 -ACTUATOR
 -SECURITY
+Adnotacja @Value jako dodawanie własnych properties do aplikacji.
