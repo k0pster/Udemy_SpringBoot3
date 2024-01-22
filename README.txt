@@ -14,3 +14,9 @@ Dodawanie własnych properties do aplikacji za pomocą adnotacji @Value i przegl
 tych najczęściej używanych.
 
 # 02-spring-boot-core
+Zasada działania Springa jako wstrzykiwanie zależności. Wstrzykiwanie metodami 
+konstruktora (dependency injection) oraz setterem(setter injection).
+Przećwiczcenie jak Spring skanuje w tle i wstrzykuje metody odpowiednio do podklas trenerów
+np. FooballCoach z klasy pochodzącej z głównej/interfejsowej Coach. Przećwiczenie przypadku,
+wyboru i zarządzania, która klasę Spring ma wstrzyknąć jeśli jest kilka metodami z 
+użyciem adnotacji @Qualifiers albo @Primary.
