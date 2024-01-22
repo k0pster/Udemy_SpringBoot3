@@ -12,3 +12,5 @@ Wstępny przegląd zależności SPRING BOOT:
 -SECURITY
 Dodawanie własnych properties do aplikacji za pomocą adnotacji @Value i przegląd 
 tych najczęściej używanych.
+
+# 02-spring-boot-core
