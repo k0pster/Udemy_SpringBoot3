@@ -19,8 +19,10 @@ konstruktora (dependency injection) oraz setterem(setter injection).
 Przećwiczcenie jak Spring skanuje w tle i wstrzykuje metody odpowiednio do podklas trenerów
 np. FooballCoach z klasy pochodzącej z głównej/interfejsowej Coach. Przećwiczenie przypadku,
 wyboru i zarządzania, która klasę Spring ma wstrzyknąć jeśli jest kilka metodami z 
-użyciem adnotacji @Qualifiers albo @Primary. Adnotacja @Lazy jako nie inicjalizowanie
-danego beana przy budowie projektu a dopiero przy wywołaniu. 
-Ćwiczenie zakresów beanów(Singelton, Prototyp).
-Cykl życia beana i możliwość definiowania metod od razu przy budowie inicjalizacji @PostConstruct oraz przy zamkykaniu
-aplikacji @PreDestroy. Przykład z klasą poza folderem i configurowaniem beana.
+użyciem adnotacji @Qualifiers albo @Primary.
+
+# 03-spring-boot-hibernate-jpa-crud
+Prosta aplikacja CRUD (Create,Read,Upload,Delete) bazy danych studentów.
+Bazując na Query do bazy danych.
+Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
+
