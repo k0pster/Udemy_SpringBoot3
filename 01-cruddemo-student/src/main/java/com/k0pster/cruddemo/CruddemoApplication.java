@@ -39,10 +39,10 @@ public class CruddemoApplication {
 			// readStudent(studentDAO);
 
 			//metoda czytajaca wszystkich studentów
-			// queryForStudents(studentDAO);
+			//queryForStudents(studentDAO);
 
 			//metoda czytajaca studentów po nazwisku
-			// queryForStudentsByLastName(studentDAO);
+			//queryForStudentsByLastName(studentDAO);
 
 			//metoda aktualizujaca studenta
 			// updateStudent(studentDAO);
@@ -71,6 +71,9 @@ public class CruddemoApplication {
 		Student tempStudent3 = new Student("Bonita", "Applebum", "bonita@onet.pl");
 
 		// zapis studentów
+		studentDAO.save(tempStudent1);
+		studentDAO.save(tempStudent2);
+		studentDAO.save(tempStudent3);
 		System.out.println("Saving the students ...");
 	}
 
@@ -120,7 +123,7 @@ public class CruddemoApplication {
 	private void queryForStudentsByLastName(StudentDAO studentDAO)
 	{
 		//pobranie listy studentów
-		List<Student> theStudents = studentDAO.findByLastName("Cena");
+		List<Student> theStudents = studentDAO.findByLastName("Rambo");
 		//wyswietlenie listy studentów
 		for (Student tempStudent : theStudents)
 		{
