@@ -1,13 +1,27 @@
+<<<<<<< Updated upstream
+=======
+//Tworzę nową klasę student, która będzie tabelą w bazie danych
+>>>>>>> Stashed changes
 package com.k0pster.cruddemo.entity;
 
 import jakarta.persistence.*;
 
+<<<<<<< Updated upstream
 @Entity
 @Table(name="student")
 public class Student {
 
     // define pola dla primary key używamy @Id adnotacji oraz @GeneratedValue jako IDENTITY
     //Okreslamy równiez kolumny
+=======
+//Musimy użyć adnotacje @Entity oraz @Table,
+//aby stworzyć tabele oraz dodajemy pola wymagane w tabeli
+@Entity
+@Table(name="student")
+public class Student
+{
+    //definiujemy pola
+>>>>>>> Stashed changes
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
@@ -22,8 +36,14 @@ public class Student {
     @Column(name="email")
     private String email;
 
+<<<<<<< Updated upstream
     // define constructors
     public Student() {
+=======
+    //definiujemy konstruktor
+    public Student()
+    {
+>>>>>>> Stashed changes
 
     }
 
@@ -32,9 +52,13 @@ public class Student {
         this.lastName = lastName;
         this.email = email;
     }
+<<<<<<< Updated upstream
 
     // define getters/setters
 
+=======
+    //definiujemy get/settery
+>>>>>>> Stashed changes
     public int getId() {
         return id;
     }
@@ -67,9 +91,13 @@ public class Student {
         this.email = email;
     }
 
+<<<<<<< Updated upstream
 
     // define toString() method
 
+=======
+    //definiujemy toString() metode do wyświetlania zawartości tabeli
+>>>>>>> Stashed changes
     @Override
     public String toString() {
         return "Student{" +
