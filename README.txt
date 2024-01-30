@@ -23,9 +23,6 @@ użyciem adnotacji @Qualifiers albo @Primary.
 
 # 03-spring-boot-hibernate-jpa-crud
 Prosta aplikacja CRUD (Create,Read,Upload,Delete) bazy danych studentów.
-<<<<<<< Updated upstream
 Bazując na Query do bazy danych.
-=======
->>>>>>> Stashed changes
 Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
 
