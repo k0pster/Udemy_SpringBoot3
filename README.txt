@@ -28,7 +28,8 @@ Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
 
 # 04-spring-boot-rest-crud
 Aplikacja RESTowa CRUD do zarzadzania studentami. REST Client <-> REST Service.Zapoznanie z aplikacją Postman. Przykład bindowania endpointów z @PathVariable po indeksie studenta.
-("/students/{studentId}" zwróci odpowiedniego studenta). Zabezpieczenie się przed przed nie istniejącymi endpointami i przechwycenie możliwych errorów @ExceptionHandler.
+("/students/{studentId}" zwróci odpowiedniego studenta). Zabezpieczenie się przed przed nie istniejącymi endpointami i przechwycenie możliwych errorów @ExceptionHandler. Określając je w klasie 
+z adnotacją @ControlerAdvice jako globalny exception handler.
 
 
 
