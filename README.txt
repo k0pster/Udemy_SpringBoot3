@@ -26,3 +26,7 @@ Prosta aplikacja CRUD (Create,Read,Upload,Delete) bazy danych studentów.
 Bazując na Query do bazy danych.
 Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
 
+# 04-spring-boot-rest-crud
+Aplikacja RESTowa CRUD do zarzadzania studentami. Zapoznanie z aplikacją Postman.
+Użycia @RestController, @RequestMapping oraz @GetMapping do utworzenia endpointów.
+
