@@ -27,6 +27,8 @@ Bazując na Query do bazy danych.
 Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
 
 # 04-spring-boot-rest-crud
-Aplikacja RESTowa CRUD do zarzadzania studentami. Zapoznanie z aplikacją Postman.
-Użycia @RestController, @RequestMapping oraz @GetMapping do utworzenia endpointów.
+Aplikacja RESTowa CRUD do zarzadzania studentami. REST Client <-> REST Service.Zapoznanie z aplikacją Postman. Przykład bindowania endpointów z @PathVariable po indeksie studenta.
+("/students/{studentId}" zwróci odpowiedniego studenta).
+
+
 
