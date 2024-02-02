@@ -27,9 +27,9 @@ Bazując na Query do bazy danych.
 Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
 
 # 04-spring-boot-rest-crud
-Aplikacja RESTowa CRUD do zarzadzania studentami. REST Client <-> REST Service.Zapoznanie z aplikacją Postman. Przykład bindowania endpointów z @PathVariable po indeksie studenta.
-("/students/{studentId}" zwróci odpowiedniego studenta). Zabezpieczenie się przed przed nie istniejącymi endpointami i przechwycenie możliwych errorów @ExceptionHandler. Określając je w klasie 
-z adnotacją @ControllerAdvice jako globalny exception handler.
+  ##01-spring-boot-rest-crud - Aplikacja RESTowa CRUD do zarzadzania studentami. REST Client <-> REST Service.Zapoznanie z aplikacją Postman. Przykład bindowania endpointów z @PathVariable po indeksie studenta.
+("/students/{studentId}" zwróci odpowiedniego studenta). Zabezpieczenie się przed przed nie istniejącymi endpointami i przechwycenie możliwych errorów @ExceptionHandler. Określając je w klasie z adnotacją @ControllerAdvice jako globalny exception handler.
+  ##02-spring-boot-rest-crud-employee - Prosta aplikacja CRUD bazy danych pracowników w standardzie JPA API. Użycie warstwy @Service. Spring sam może utworzyć automatycznie DAO CRUDa jak zrobione to zostało dla pracownika (Employee) dzięki Spring JPA DATA. Wtedy dziedziczy sie po JpaRepository.
 
 
 
