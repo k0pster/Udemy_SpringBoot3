@@ -32,6 +32,6 @@ Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
   ##02-spring-boot-rest-crud-employee - Prosta aplikacja CRUD bazy danych pracowników w standardzie JPA API. Użycie warstwy @Service.
   ##03-spring-boot-rest-crud-employee-with-spring-data-jpa - Spring sam może utworzyć automatycznie nam DAO CRUDa jak zrobione to zostało dla pracownika (Employee) manualnie.Korzystamy w tym celu z zaleźności Spring JPA DATA.Wystarczy dziedziczyć po klasie JpaRepository.
   ##04-spring-boot-rest-crud-employee-with-spring-data-REST -To samo tylko konfigurowanie wszystkich endpointów można uzyskać przy pomocy Springa zależnością Spring DATA REST. Tutaj odbywa się jeszcze mniej wymagań. Potrzebna encja (Entity), dziedziczenie po Intefejsie JpaRepository oraz dodanie w POM zależności:spring-boot-starter-data-rest. Dzieje się to lotnie
-i żaden kod więcej nie jest wymagany. Odpowiedzi po REST zapytaniach otrzymujemy z medanymi dzięki HATEOS(Hypermedia as the Engine od Application State), co możemy konifgurować. Używany jest tutaj HAL(Hypertext Application Language)
+i żaden kod więcej nie jest wymagany. Odpowiedzi po REST zapytaniach otrzymujemy z medanymi dzięki HATEOS(Hypermedia as the Engine od Application State), co możemy konifgurować. Używany jest tutaj format HAL(Hypertext Application Language). Zaawansowanie możemy scustomizować query poprzez JPQL i QueryDSL.
 
 
