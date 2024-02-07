@@ -38,5 +38,6 @@ Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
     Tutaj odbywa się jeszcze mniej wymagań. Potrzebna encja (Entity), dziedziczenie po Intefejsie JpaRepository oraz dodanie w POM zależności:spring-boot-starter-data-rest. 
     Dzieje się to lotnie i żaden kod więcej nie jest wymagany. Odpowiedzi zapytaniach REST otrzymujemy w formacie z metadanymi w formacie HATEOS(Hypermedia as the Engine od Application State), 
     co możemy konifgurować. Używany jest tutaj format HAL(Hypertext Application Language).Zaawansowanie możemy scustomizować query poprzez JPQL i QueryDSL.
-
+# 05-spring-boot-rest-security
+Poprzednia aplikacja REST, z różnymi restrykcjami dostępów. Każdy user posiada inne role (EMPLOYEE,MANAGER,ADMIN) mogący używać tylko określonych metod HTTP, wg nadanych restrykcji.
 
