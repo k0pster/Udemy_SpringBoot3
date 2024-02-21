@@ -1,0 +1,14 @@
+<! tworzymy podstawowy plik html, wyswietlajacy czas !>
+<!DOCTYPE HTML>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <title>Thymeleaf Demo</title>
+</head>
+
+<body>
+    <! wyświetlamy zmienną theDate z Democontrollera!>
+    <p th:text="'Time on the server is ' + ${theDate}" />
+
+</body>
+
+</html>
