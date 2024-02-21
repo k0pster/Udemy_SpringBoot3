@@ -43,3 +43,5 @@ Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
     ##01-spring-boot-rest-security-employee-jdbc-authentication - Poprzednia aplikacja REST, z różnymi restrykcjami dostępów. Teraz jednak nie hardcodujemy w aplikacji userów i ich ról (EMPLOYEE,MANAGER,ADMIN). Dzieki JdbcUserDetailsManager i odpowiednio przygotowanej bazie danych, userzy i role(restrykcje) nadają się zgodnie z tymi, które przchowujemy w bazie danych w oodpowiednich tabelach. Nie jest przez to wymagany np. ciągły restart aplikacji.
     ##02-spring-boot-rest-security-employee-bcrypt-password - Dodanie algorytmu BCrypt do hashowania haseł, oraz instrukcja jak scustomizować własne tabele danych. Userzy i hasła, oraz role mogą być przchowywane w dowolnie nazwanych przez nas tabelach. (nie users, authorities).
 
+# 06-spring-boot-spring-mvc
+    ##01-thymeleafdemo-helloworld - wyświetlanie czasu na serwerze (/hello), template thymeleaf.html, poprzez atrybut modelu (org.springframework.ui.Model) pobranie aktualnej daty i wyświetlenie na stronie.
