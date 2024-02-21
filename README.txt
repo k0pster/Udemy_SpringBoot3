@@ -44,4 +44,4 @@ Konfiguracja bazy danych do MySQL serwera z użyciem użytkownika z dostępem.
     ##02-spring-boot-rest-security-employee-bcrypt-password - Dodanie algorytmu BCrypt do hashowania haseł, oraz instrukcja jak scustomizować własne tabele danych. Userzy i hasła, oraz role mogą być przchowywane w dowolnie nazwanych przez nas tabelach. (nie users, authorities).
 
 # 06-spring-boot-spring-mvc
-    ##01-thymeleafdemo-helloworld - wyświetlanie czasu na serwerze (/hello), template thymeleaf.html, poprzez atrybut modelu (org.springframework.ui.Model) pobranie aktualnej daty i wyświetlenie na stronie.
+    ##01-thymeleafdemo-helloworld - wyświetlanie czasu na serwerze (/hello), template thymeleaf.html, poprzez atrybut modelu (org.springframework.ui.Model) pobranie aktualnej daty i wyświetlenie na stronie. Do tego jak możemy wykorzystać stylowanie CSS.
