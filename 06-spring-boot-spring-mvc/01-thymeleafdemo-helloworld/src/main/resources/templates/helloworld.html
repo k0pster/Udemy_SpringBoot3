@@ -1,0 +1,22 @@
+<!-- tworzymy podstawowy plik html, wyswietlajacy czas -->
+<!DOCTYPE HTML>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <title>Thymeleaf Demo</title>
+
+</head>
+
+<body>
+    <!-- Wyświetlamy na stronie dane z formularza -->
+Hello World of Spring!
+<br><br>
+    <!-- student name z helloworld-form -->
+Student name: <span th:text="${param.studentName}" />
+
+<br><br>
+    <!-- dodanie do wiadomości atrybutu, który zamodelowaliśmy -->
+The message: <span  th:text="${message}" />
+
+</body>
+
+</html>
